@@ -95,19 +95,9 @@ ACTIVE_JOBS=0
 START_TIME=$(date +%s)
 
 # ---------------------------
-# Logging helper
+# Load Utils
 # ---------------------------
-log() {
-    echo "[$(date +'%Y-%m-%d %H:%M:%S')] $*"
-}
-
-log_error() {
-    echo "[$(date +'%Y-%m-%d %H:%M:%S')] ❌ ERROR: $*" >&2
-}
-
-log_warn() {
-    echo "[$(date +'%Y-%m-%d %H:%M:%S')] ⚠️  WARNING: $*" >&2
-}
+source utils.sh
 
 # ---------------------------
 # Atomic stats helpers (for parallel execution)
