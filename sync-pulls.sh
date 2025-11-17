@@ -27,8 +27,8 @@ set -euo pipefail
 # Environment Variables:
 #   SOURCE_REPO              - Source repository (format: owner/repo)
 #   TARGET_REPO              - Target repository (format: owner/repo)
-#   SOURCE_HOST              - Source GitHub hostname (default: github.bamtech.co)
-#   TARGET_HOST              - Target GitHub hostname (default: github.twdcgrid.net)
+#   SOURCE_HOST              - Source GitHub hostname
+#   TARGET_HOST              - Target GitHub hostname 
 #   STATE                    - PR state to sync: open, closed, merged, all (default: open)
 #   DRY_RUN                  - Preview mode (true/false, default: false)
 #   LIMIT                    - Max number of PRs to process (default: unlimited)
