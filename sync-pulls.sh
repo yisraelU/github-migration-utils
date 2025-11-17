@@ -51,10 +51,10 @@ set -euo pipefail
 # ---------------------------
 # Configuration
 # ---------------------------
-SOURCE_REPO="${SOURCE_REPO:-services-commons/api-registry}"
-TARGET_REPO="${TARGET_REPO:-Contract-Registry/contract-registry}"
-SOURCE_HOST="${SOURCE_HOST:-github.bamtech.co}"
-TARGET_HOST="${TARGET_HOST:-github.twdcgrid.net}"
+SOURCE_REPO="${SOURCE_REPO}"
+TARGET_REPO="${TARGET_REPO}"
+SOURCE_HOST="${SOURCE_HOST}"
+TARGET_HOST="${TARGET_HOST}"
 STATE="${STATE:-open}"
 DRY_RUN="${DRY_RUN:-false}"
 LIMIT="${LIMIT:-9999999}"
